@@ -1,0 +1,11 @@
+Extra small - dois frames por linha
+máximo 576px
+
+Small  - quatro frames por linha
+minimo 577px e máximo 768px
+
+Large - seis frames por linha
+minimo 769 e máximo 992px
+
+Extra large - oito frames por linha
+minimo 992

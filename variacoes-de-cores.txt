@@ -1,0 +1,17 @@
+Amarelo
+#e7b902
+
+Rosa
+#f03cc3
+
+Vermelho
+#ff3845
+
+Lilas
+#8f4af7
+
+Verde
+#0ecc6a
+
+Azul
+#01a5fc

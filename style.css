@@ -1,0 +1,117 @@
+@media screen and (min-width: 376px) {
+    #animais {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1px;
+        gap: 5px;
+    }
+
+        .tituloanimais {
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .animaisamarelo {
+            box-sizing: border-box;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background-color: #e7b902;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;  
+        }
+
+        .animaisrosa { 
+            box-sizing: border-box;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background-color: #f03cc3;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+        }
+
+        .animaisvermelhos {
+            box-sizing: border-box;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background-color: #ff3845;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+        }
+
+        .animaislilas {
+            box-sizing: border-box;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background-color: #8f4af7;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+        }
+
+        .animaisazul {
+            box-sizing: border-box;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background-color: #01a5fc;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+        }
+
+        .animaisverde {
+            box-sizing: border-box;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            background-color: #0ecc6a;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #fff;
+        }
+
+    #animais :hover {
+        transform: scale(0.9);
+        transition: transform 0.3s ease;
+    }
+
+    a {
+        text-decoration: none;
+        text-transform: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #animais {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1%;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #animais {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding: 1%;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    #animais {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding: 1%;
+        gap: 10px;
+    }
+}
